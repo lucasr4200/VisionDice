@@ -14,6 +14,10 @@
 		27DCAE1C2BD2E7000099247B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DCAE1B2BD2E7000099247B /* Assets.xcassets */; };
 		27DCAE1F2BD2E7000099247B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DCAE1E2BD2E7000099247B /* Preview Assets.xcassets */; };
 		27DCAE2A2BD2E7000099247B /* VisionDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DCAE292BD2E7000099247B /* VisionDiceTests.swift */; };
+		27DCAE342BD2EC680099247B /* dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 27DCAE332BD2EC680099247B /* dice.usdz */; };
+		27DCAE352BD2EC680099247B /* dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 27DCAE332BD2EC680099247B /* dice.usdz */; };
+		27DCAE372BD303C50099247B /* studio.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 27DCAE362BD303C50099247B /* studio.skybox */; };
+		27DCAE382BD303C50099247B /* studio.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 27DCAE362BD303C50099247B /* studio.skybox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,8 @@
 		27DCAE202BD2E7000099247B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27DCAE252BD2E7000099247B /* VisionDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DCAE292BD2E7000099247B /* VisionDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDiceTests.swift; sourceTree = "<group>"; };
+		27DCAE332BD2EC680099247B /* dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = dice.usdz; path = ../../../Downloads/assets/dice.usdz; sourceTree = "<group>"; };
+		27DCAE362BD303C50099247B /* studio.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = studio.skybox; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +86,12 @@
 		27DCAE102BD2E6FF0099247B /* VisionDice */ = {
 			isa = PBXGroup;
 			children = (
+				27DCAE362BD303C50099247B /* studio.skybox */,
 				27DCAE152BD2E6FF0099247B /* VisionDiceApp.swift */,
 				27DCAE172BD2E6FF0099247B /* ContentView.swift */,
 				27DCAE192BD2E6FF0099247B /* ImmersiveView.swift */,
 				27DCAE1B2BD2E7000099247B /* Assets.xcassets */,
+				27DCAE332BD2EC680099247B /* dice.usdz */,
 				27DCAE202BD2E7000099247B /* Info.plist */,
 				27DCAE1D2BD2E7000099247B /* Preview Content */,
 			);
@@ -199,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27DCAE1F2BD2E7000099247B /* Preview Assets.xcassets in Resources */,
+				27DCAE342BD2EC680099247B /* dice.usdz in Resources */,
 				27DCAE1C2BD2E7000099247B /* Assets.xcassets in Resources */,
+				27DCAE372BD303C50099247B /* studio.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DCAE352BD2EC680099247B /* dice.usdz in Resources */,
+				27DCAE382BD303C50099247B /* studio.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
